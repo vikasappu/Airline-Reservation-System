@@ -1,0 +1,80 @@
+body {
+      
+      background-image: url('../images/flight img2.jpg');
+      background-size: cover;
+      background-position: center 10px;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top:30px;
+      font-size:18px;
+    }
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.3); /* White overlay with 50% opacity */
+      z-index: -1;
+    }
+    .container h2{
+      text-align: center;
+      
+
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color:lightblue;
+    }
+    input[type="text"], input[type="date"] {
+      padding: 8px;
+      margin: 5px;
+      width: 20%;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 11px;
+      cursor: pointer;
+    }
+    button:hover{
+      background-color: #218838;
+    }
+    .book-btn {
+      background-color: #008CBA;
+    }
+    .book-btn:hover{
+      background-color: blue;
+    }
+    .book-btn a{
+      text-decoration: none;
+      color: white;
+    }
+    .pagination {
+      margin-top: 10px;
+    }
+    .pagination button {
+      background-color: #ddd;
+      color: black;
+    }
+    .pagination button:hover{
+      background-color: gray;
+    }

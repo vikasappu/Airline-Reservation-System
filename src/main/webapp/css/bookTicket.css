@@ -1,0 +1,78 @@
+ body {
+            
+            background-color: #f2f2f2;
+            background-image:none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 60px; /* Adjust this value if needed */
+         
+
+        }
+        .container {
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 5px;
+            width: 400px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid #90caf9;
+             margin-top: 60px; /* Pushes content below the navbar */
+        }
+        .container h2 {
+            font-size: 22px;
+            color: #0d47a1;
+            margin-bottom: 15px;
+        }
+        .form-group {
+            margin-bottom: 12px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        input, textarea {
+            width: 385px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            background-color: #f9f9f9;
+        }
+        textarea {
+            resize: none;
+            height: 60px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .btn-primary {
+            background-color: #42a5f5;
+            color: white;
+        }
+        .btn-primary:hover{
+            background-color: #008CBA;
+        }
+        .btn-secondary {
+            background-color: #b0bec5;
+            color: white;
+        }
+        .btn-secondary:hover{
+            background-color: #333333;
+        }
+        
+        .btn-primary a{
+        text-decoration: none;
+        color: white;
+        }

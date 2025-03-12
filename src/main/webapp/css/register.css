@@ -1,0 +1,105 @@
+body {
+	
+	background-image: url("../images/flight img1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+body::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	/* White overlay with 50% opacity */
+	z-index: -1;
+}
+
+.container {
+	align-items: center;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 40px;
+	border-radius: 10px;
+	width: 300px;
+	color: white;
+}
+
+.container h2 {
+	text-align: center;
+}
+
+.input-group {
+	margin: 10px 0;
+}
+
+.input-group label {
+	display: block;
+	font-weight: bold;
+}
+
+.input-group input {
+	width: 285px;
+	padding: 8px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.btn-container {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	background-color: navy;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+.btn:hover {
+	background: #218838;
+}
+
+.signin-link {
+	align-items: center;
+	margin-top: 10px;
+	display: block;
+	color: white;
+	text-align: center;
+}
+
+.error-message {
+	color: red;
+	font-size: 14px;
+	margin-top: 10px;
+}
+/*Password Toggle */
+
+ .password-container {
+            position: relative;
+            width: 100%;
+        }
+       
+        .toggle-password {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            font-size: 16px;
+            color: gray;
+        }
+   /*Password Toggle */

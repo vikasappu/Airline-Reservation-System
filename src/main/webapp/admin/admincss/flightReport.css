@@ -1,0 +1,100 @@
+body {
+	padding: 0;
+	background-color: rgb(214, 214, 214);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+	background: white;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	text-align: center;
+}
+
+.search-box {
+	display: flex;
+	
+	margin-bottom: 15px;
+}
+
+.search-box input {
+	width: 40%;
+	justify-content:space-between;
+	padding: 8px;
+}
+
+.search-box button {
+	padding: 8px 15px;
+	background: #28a3f3;
+	color: white;
+	border: none;
+	cursor: pointer;
+	
+
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid #ddd;
+	text-align: left;
+}
+
+th, td {
+	padding: 10px;
+}
+
+th {
+	background: #f4f4f4;
+}
+
+.edit-btn {
+	background: #28a3f3;
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.edit-btn:hover {
+	background-color: blue;
+}
+
+.edit-btn a {
+	text-decoration: none;
+	color: white;
+}
+
+.action-buttons {
+	margin-top: 10px;
+	display: flex;
+	justify-content: right;
+}
+
+.action-buttons button {
+	padding: 8px 15px;
+	background: #28a3f3;
+	color: white;
+	border: 1px solid;
+	cursor: pointer;
+}
+
+.action-buttons button:hover {
+	background-color: blue;
+}
+
+.action-buttons a {
+	text-decoration: none;
+	color: white;
+}

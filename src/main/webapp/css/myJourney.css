@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: column; /* So navbar stays at the top */
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    background: lightblue;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.success-message {
+    text-align: center;
+    color: lightgreen;
+    font-size: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px; /* Ensures message is centered */
+}
+
+table {
+    margin-top: 50px; /* Reduces space from success message */
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    background: white;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background: #f4f4f4;
+}
+

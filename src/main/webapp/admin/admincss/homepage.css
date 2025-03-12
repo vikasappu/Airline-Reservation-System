@@ -1,0 +1,11 @@
+body{
+	background-image: url('../image/adminflight1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+	text-align: center;
+	font-size:60px;
+}

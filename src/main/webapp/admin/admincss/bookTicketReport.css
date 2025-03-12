@@ -1,0 +1,68 @@
+body {
+	margin-top: 100px;
+	padding: 0;
+	background-color: rgb(214, 214, 214);;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+	background: white;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	text-align: center;
+}
+
+.search-box {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.search-box input {
+	width: 40%;
+	padding: 8px;
+}
+
+.search-box button {
+	padding: 8px 15px;
+	background: #28a3f3;
+	color: white;
+	border: none;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid #ddd;
+	text-align: left;
+}
+
+th, td {
+	padding: 10px;
+}
+
+th {
+	background: #f4f4f4;
+}
+
+.action-buttons {
+	margin-top: 10px;
+	display: flex;
+	justify-content: right;
+}
+
+.action-buttons button {
+	padding: 8px 15px;
+	background: #28a3f3;
+	color: white;
+	border: 1px solid;
+	cursor: pointer;
+}

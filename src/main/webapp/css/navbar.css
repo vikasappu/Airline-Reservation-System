@@ -1,0 +1,138 @@
+body {
+	font-family: "Times New Roman", sans-serif;
+	background-image: url('../images/flight background.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+	padding-top: 50px;
+	/* To prevent content from hiding behind the navbar */
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	justify-content: flex-start; /* Align items to the left */
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 20px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.logbtn button {
+	background-color: #04AA6D;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 20%;
+	opacity: 0.9;
+}
+
+.logbtn button:hover {
+	opacity: 1;
+}
+
+.cancelbtn, .deletebtn {
+	margin-top: 70px;
+	float: revert;
+	width: 10%;
+}
+
+.cancelbtn {
+	background-color: #ccc;
+	color: black;
+	border: none;
+	padding: 10px 16px;
+	opacity: 0.8;
+}
+
+.cancelbtn:hover {
+	opacity: 1;
+}
+
+.deletebtn {
+	background-color: #f44336;
+	border: none;
+	padding: 10px 16px;
+	opacity: 0.8;
+}
+
+.deletebtn:hover {
+	opacity: 1;
+}
+
+.logout-container {
+	padding: 16px;
+	text-align: center;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: #474e5d;
+	padding-top: 50px;
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto;
+	border: 1px solid #888;
+	width: 60%;
+	height: 40%;
+}
+
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+
+.close {
+	position: absolute;
+	right: 35px;
+	top: 15px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #f1f1f1;
+}
+
+.close:hover, .close:focus {
+	color: #f44336;
+	cursor: pointer;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
