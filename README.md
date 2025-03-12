@@ -1,4 +1,4 @@
-Project Overview
+Project Overview -
 This project is a local airline reservation system that allows users to register, log in, and book flights. An admin module is included for managing flight details. The system is developed using Java Servlets and JSP for backend processing, MySQL for database management, and HTML, CSS, and JavaScript for the frontend.
 
 Features
